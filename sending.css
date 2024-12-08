@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #4CAF50; 
+    --secondary-color: #333; 
+    --font-family-main: "Varela Round", sans-serif; 
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-main);
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #confirmation-page {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  #confirmation-page h1 {
+    font-size: 2.4rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  #confirmation-page p {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+  }
+  
+  #back-to-home {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #back-to-home:hover {
+    background-color: #388e3c;
+  }
+  
